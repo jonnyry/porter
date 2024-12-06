@@ -8,6 +8,8 @@ on:
     - main
     paths-ignore:
       - 'docs/**'
+  workflow_dispatch:
+    
 env:
   GOVERSION: 1.23.3
 
